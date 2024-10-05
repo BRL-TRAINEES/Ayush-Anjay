@@ -29,8 +29,32 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
+  
+
   <title>authenticiation_app</title>
   <link rel="manifest" href="manifest.json">
+
+  <script>
+
+  // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyCilOEZmeJ6dYvjcldaNqOtf78Q4ZUcaoY",
+  authDomain: "authapp1-72314.firebaseapp.com",
+  projectId: "authapp1-72314",
+  storageBucket: "authapp1-72314.appspot.com",
+  messagingSenderId: "47749362977",
+  appId: "1:47749362977:web:d5574d13425619d62b3a60"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+</script>
+
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
